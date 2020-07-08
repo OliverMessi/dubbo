@@ -11,5 +11,11 @@
         <module name="dubbo-provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo" target="1.8" />
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-interface" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
