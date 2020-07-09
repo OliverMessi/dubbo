@@ -1,4 +1,10 @@
 package com.wdm.springbootproviderxml.service;
 
-public class UserServiceImp {
+import com.wdm.service.IUserService;
+
+public class UserServiceImp implements IUserService {
+    @Override
+    public String hello() {
+        return "dubbo+springboot!!";
+    }
 }
