@@ -1,0 +1,6 @@
+dubbo:
+  application:
+    name: springboot-consumer-annotation
+  registry:
+    protocol: zookeeper
+    address: 192.168.137.89:2181
